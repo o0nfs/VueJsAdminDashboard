@@ -180,7 +180,20 @@
 </script>
 
 <style>
-.custom-icon {
-  font-size: 2rem;
+.dialog__content {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 15px 0.01px;
+  border-radius: 15px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative ;
+   top: -100px;
+   z-index: 1;
+  width: 700px;
+  padding: 40px;
+  margin: 0 auto;
 }
 </style>
